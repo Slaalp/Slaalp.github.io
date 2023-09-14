@@ -13,6 +13,8 @@ window.addEventListener('load', (e)=>{
   playerImage.src = "assets/images/ninja.png";
   const projectileImage = new Image();
   projectileImage.src = "assets/images/laser.png";
+  const fireball = new Image();
+  projectileImage.src = "assets/images/fireball.png";
 
   //////////keyboard input
   class InputHandler {
