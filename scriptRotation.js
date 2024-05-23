@@ -99,8 +99,8 @@ window.addEventListener('load', (e)=>{
       }
     }
     display() {
-      // cxt.fillStyle = "red";
-      // cxt.fillRect(this.x, this.y, this.w, this.h);
+      cxt.fillStyle = "red";
+      cxt.fillRect(this.x, this.y, this.w, this.h);
       cxt.save();
       cxt.translate(this.x + this.w / 2, this.y+this.h/2);
       cxt.rotate(this.rotation);
